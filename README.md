@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/32695116/README.md)
+[README.md](https://github.com/user-attachments/files/32695134/README.md)
 # Data Structures & Algorithms in C
 
 A collection of Data Structures and Algorithms implemented from scratch in C, built as a personal learning project to strengthen core CS fundamentals.
@@ -16,6 +16,9 @@ This repository contains hand-written implementations of common data structures 
 - Test cases included in `main()` for each structure
 
 ## ✅ Progress / Tick List
+
+### Array
+- [ ] Array
 
 ### Linked List
 - [x] Singly Linked List
