@@ -18,7 +18,7 @@ This repository contains hand-written implementations of common data structures 
 ## ✅ Progress / Tick List
 
 ### Array
-- [ ] Array
+- [x] Array
 
 ### Linked List
 - [x] Singly Linked List
