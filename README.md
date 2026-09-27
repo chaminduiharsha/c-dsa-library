@@ -15,7 +15,7 @@ This repository contains hand-written implementations of common data structures 
 - Focus on manual memory management using `malloc`/`free`
 - Test cases included in `main()` for each structure
 
-## ✅ Progress / Tick List
+## ✅ Progress 
 
 ### Linked List
 - [x] Create a linked list
@@ -48,12 +48,6 @@ This repository contains hand-written implementations of common data structures 
 - [ ] Binary Search Tree (insert, delete, search)
 - [ ] Height / depth of tree
 - [ ] AVL tree
-
-### Graphs
-- [ ] Adjacency list representation
-- [ ] BFS
-- [ ] DFS
-- [ ] Dijkstra's algorithm
 
 ### Sorting & Searching
 - [ ] Bubble, Selection, Insertion sort
