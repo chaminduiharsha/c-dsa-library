@@ -22,7 +22,7 @@ This repository contains hand-written implementations of common data structures 
 
 ### Linked List
 - [x] Singly Linked List
-- [ ] Doubly Linked List
+- [x] Doubly Linked List
 - [ ] Circular Linked List
 - [ ] Doubly Circular Linked List
 
