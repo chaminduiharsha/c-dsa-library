@@ -183,8 +183,8 @@ void insertMiddle(struct List *list,int value,int pos)
 
 
 
- temp->next=newnode;
- newnode->next->prev=newnode;
+ //temp->next=newnode;
+ //newnode->next->prev=newnode;
 
 
     if (temp->next != NULL)
@@ -236,8 +236,14 @@ void deleteRear(struct List *list)
         return;
     }
 
-    if (temp->prev == NULL) {
-    } else {
+    if (temp->prev == NULL)
+     {
+         free(temp);
+         return;
+
+
+    }
+    else {
         list->tail = temp->prev;
         list->tail->next = NULL;
     }
@@ -391,6 +397,7 @@ int main()
 
 
         printf("1.create list\n");
+
         printf("2. Insert Front\n");
         printf("3. Insert Rear\n");
         printf("4. Insert Middle\n");
@@ -552,5 +559,7 @@ int main()
 
     return 0;
 }
+
+
 
 
