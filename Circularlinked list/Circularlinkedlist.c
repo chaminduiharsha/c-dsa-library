@@ -65,7 +65,7 @@ void search(struct List *list,int key)
 {
     struct node *temp;
     temp=list->head;
-    int pos=1;
+   int pos=1;
 
     if(temp==NULL)
     {
@@ -209,26 +209,39 @@ void deleteFront(struct List *list)
 
 void deleteRear(struct List *list)
 {
-
-    struct node*temp;
+    struct node *temp;
     temp=list->head;
 
-    while(temp->next!=list->tail)
+
+    if(list->head==NULL)
+    {
+        printf("empty list\n");
+        return;
+    }
+    if(list->head==list->tail)
+    {
+        list->head=list->tail=NULL;
+        return;
+    }
+
+    while(temp->next != list->tail)
     {
         temp=temp->next;
     }
 
-    if(temp)
-
-
-
-
-    temp->next=list->tail->next;
     free(list->tail);
+    temp->next=list->head;
     list->tail=temp;
 
 
+
+
 }
+
+
+
+
+
 
 void deleteMiddle(struct List *list,int pos)
 {
@@ -372,7 +385,7 @@ int main()
 
     do {
 
-        printf("\n=====CIRCULAR LINKED LIST MENU =====\n");
+        printf("\n=====CIRCULLAR LINKED LIST MENU =====\n");
 
 
         printf("1.create list\n");
@@ -541,11 +554,6 @@ int main()
 
     return 0;
 }
-
-
-
-
-
 
 
 
