@@ -49,7 +49,7 @@ This repository contains hand-written implementations of common data structures 
 - [ ] Dijkstra's Algorithm
 
 ### Sorting & Searching
-- [ ] Bubble Sort
+- [x] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
