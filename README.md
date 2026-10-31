@@ -50,7 +50,7 @@ This repository contains hand-written implementations of common data structures 
 
 ### Sorting & Searching
 - [x] Bubble Sort
-- [ ] Selection Sort
+- [x] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
